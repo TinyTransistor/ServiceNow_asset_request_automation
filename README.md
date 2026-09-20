@@ -2,19 +2,21 @@
 
 An enterprise-grade IT Service Management (ITSM) automation application engineered on the **ServiceNow Cloud Platform** using event-driven workflows and relational database architectures.
 
-## 📱 Application Architecture & Components
+## 📱 Application Architecture & Proof of Execution
 
-### 1. User Intake UI (Service Catalog)
-* **Form Layout:** Developed a responsive data intake module titled `Employee IT Asset Request` hosted inside the native Service Catalog framework.
-* **Schema Validation:** Configured granular catalog variables (`device_type` as a Select Box and `business_justification` as Multi-Line Text) to enforce system-wide data integrity.
+### 1. Automated Workflow Blueprint (Flow Designer)
+Below is the structural backend logic map listening for intake events and routing managerial approval parameters:
 
-### 2. Event-Driven Automation Engine (Flow Designer)
-* **Trigger Mechanics:** Programmed an institutional execution rule listening continuously for structural Service Catalog submission events.
-* **Approval Gates:** Implemented a contextual multi-stage managerial approval matrix to intercept incoming requests and calculate authorization states.
-* **Contextual Task Routing:** Engineered a downstream delivery channel that dynamically instantiates a child Catalog Task (`SCTASK`) and automatically dispatches it to the appropriate fulfillment group (`Hardware` assignment group).
+<img width="1920" height="969" alt="flow_design" src="https://github.com/user-attachments/assets/9a6c14bc-8145-43db-8728-0008d7098313" />
+
+
+### 2. Live Task Dispatched State (Fulfillment)
+Below is the live operational ledger confirming that once administrative approval is verified, a child deployment task (`SCTASK`) is instantly auto-routed to the `Hardware` team:
+
+<img width="1920" height="966" alt="execution" src="https://github.com/user-attachments/assets/dd164561-ad00-497a-9d96-d68a5495c78e" />
+
 
 ## 🧠 Core Engineering Principles Demonstrated
 * Enterprise Workflow Choreography & Cloud Systems Infrastructure.
 * Relational Database Management & Functional Data Pill Referencing.
 * Automated IT Service Delivery Frameworks (ITIL Standards).
-*# ServiceNow_asset_request_automation
